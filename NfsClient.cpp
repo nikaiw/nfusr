@@ -16,6 +16,7 @@
 #include <cassert>
 #include <chrono>
 #include <cstring>
+#include <sys/sysmacros.h>
 
 double NfsClient::attrTimeout_ = 0.0;
 
